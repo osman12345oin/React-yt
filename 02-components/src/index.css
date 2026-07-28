@@ -1,0 +1,53 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: #ffffff; 
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+}
+
+.card{
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navbar .heading h1{
+    color: red;
+}
+
+.navbar .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar .list li{
+    list-style: none;
+    color: red;
+    padding-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
