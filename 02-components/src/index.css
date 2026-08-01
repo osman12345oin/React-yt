@@ -43,7 +43,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-
 .navbar .list li{
     list-style: none;
     color: red;
